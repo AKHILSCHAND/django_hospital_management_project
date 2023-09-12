@@ -1,0 +1,47 @@
+li:hover{
+    background-color: rgb(101, 96, 96);
+    border-radius: 5px;
+    border: 1px solid rgb(222, 227, 213);    
+}
+
+.col-2 {
+    width: 20%;
+}
+
+/* <!--dmm--> */
+.slider-bottom{ width:1300px; float:left;}
+.slider-bottom-parts{ width:350px; float:left; padding:20px 41px; background:#0099da; border-right:2px #FFF solid;}
+.slider-bottom-parts-h3{ color:#FFF; padding:20px 0px 10px; text-align:center; font-size:20px;}
+.slider-bottom-parts-p{ color:#FFF; line-height:26px; font-size:14px; text-align:center;}
+
+.content{ width:1300px; float:left; padding-bottom:20px;}
+.content-left{width:950px; height:auto; float:left;}
+.content-left-top{width:950px; float:left;}
+.content-left-top-left{width:430px; float:left; padding:20px 10px;}
+.content-header-h3{ font-size:28px; padding:15px 0px; color:#0099da;}
+.content-left-top-right{width:500px; float:left; padding-top:60px;}
+.content-left-top-right-p{ font-size:14px; float:left; padding:15px 0px 0px 20px; 
+text-align:justify; color:#000; line-height:26px;}
+.content-left-bottom{width:950px; float:left;}
+.content-left-bottom-parts{ width:280px; float:left; padding:0px 20px 0px 15px;}
+.content-left-bottom-parts p{ line-height:26px; font-size:14px; text-align:justify;}
+.content-right{ width:330px; height:auto; float:left; padding:20px 0px 0px 20px;}
+.content-right-top{ width:330px; float:left;}
+.content-right-top-left{ width:100px; float:left; padding:0px 0px 10px;}
+.content-right-top-right{ width:210px; float:left;}
+.content-date{ color:#0099da; font-style:italic; font-size:13px; padding:0px 10px 10px;}
+.content-right-p{padding:0px 10px 10px; font-size:12px; text-align:justify;}
+.content-right-bottom{width:330px; float:left;}
+.my_form{border-radius:2px; border:1px solid #0099da; margin:5px auto; height:30px; width:280px; padding:0px 10px;}
+.form-textarea{ border-radius:2px; border:1px solid #0099da; margin:5px auto; width:280px; padding:0px 10px;}
+
+.content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
+.content-header a{ color:#0099dd; text-decoration:none;}
+.content-header a:hover{ color:#069;}
+
+.content-bottom-boxes{ width:300px; float:left; padding:0px 20px; color:#000;}
+.content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
+.content-bottom-bg-header{ font-size:18px; padding-bottom:15px;}
+.content-bottom-bg-p{ line-height:24px;}
+
+/* <!--dmm--> */

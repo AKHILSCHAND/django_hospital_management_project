@@ -1,0 +1,158 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{%block Contact%} 
+
+{% load static %}
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="width: auto; height:70vh;">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="{% static '/image/caro1.png'%}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="{% static '/image/caro3.jpeg'%}" class="d-block w-100" alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="{% static '/image/car2.jpeg'%}" class="d-block w-100" alt="...">
+        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container p-5 m-5">
+    <div class="row">
+      <!--dmm-->
+    <div class="slider-bottom">
+      <div class="slider-bottom-parts">
+          <div align="center"><img src="static\image\1cn2.jpeg" width="70" height="60" /></div>
+            <div class="slider-bottom-parts-h3">Lorem Ipsum is simply dummy text</div>
+            <div class="slider-bottom-parts-p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+              industry's standard dummy text ever since the 1500s. When an  unknown...
+            </div>
+        </div>
+        <div class="slider-bottom-parts">
+          <div align="center"><img src="static\image\icn1.jpeg" width="70" height="60" /></div>
+            <div class="slider-bottom-parts-h3">Lorem Ipsum is simply dummy text</div>
+            <div class="slider-bottom-parts-p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+              industry's standard dummy text ever since the 1500s. When an  unknown...
+            </div>
+        </div>
+        <div class="slider-bottom-parts" style="border-right:none;">
+          <div align="center"><img src="static\image\icn3.png" width="70" height="60" /></div>
+            <div class="slider-bottom-parts-h3">Lorem Ipsum is simply dummy text</div>
+            <div class="slider-bottom-parts-p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+              industry's standard dummy text ever since the 1500s. When an  unknown...
+            </div>
+        </div>
+    </div>
+  
+    <div class="content">
+      <div class="slider-bottom">
+        <div class="content-left">
+          <div class="content-left-top">
+              <div class="content-left-top-left">
+                  <div class="content-header-h3">Lorem Ipsum is simply</div>
+                  <img src="static/image/pd.jpeg" width="430" height="250" />
+                </div>
+                <div class="content-left-top-right">
+                  <div class="content-left-top-right-p">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                        industry's standard dummy text ever since the 1500s.when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the 
+                        release of Letraset sheets containing Lorem Ipsum passages.<br /><br>
+                        <a href="#!" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+              </div>
+          </div>
+  
+      
+            <div class="content-left-bottom">
+              <div class="content-left-bottom-parts">
+                  <div class="content-header-h3">Lorem Ipsum is simply</div>
+                    <p style="margin-top:-10px;"><strong>Lorem Ipsum is simply dummy</strong></p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                       industry's standard dummy text ever since the 1500s... <a href="#">More</a></p>
+                </div>
+                <div class="content-left-bottom-parts">
+                  <p style="padding-top:35px;"><strong>Lorem Ipsum is simply dummy</strong></p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                       industry's standard dummy text ever since the 1500s... <a href="#">More</a></p>
+                </div>
+                <div class="content-right">
+        
+                  <div class="content-header-h3">News &amp; Events</div>
+                    <div class="content-right-top">
+                      <div class="content-right-top-left"><img src="static/image/op1.jpeg" width="100" /></div>
+                        <div class="content-right-top-right">
+                          <div class="content-date">20-02-2018</div>
+                            <div class="content-right-p">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum ...
+                            </div>
+                        </div>
+                        <div class="content-right-top-left"><img src="static/image/op2.jpeg" width="100" /></div>
+                        <div class="content-right-top-right">
+                          <div class="content-date">24-02-2018</div>
+                            <div class="content-right-p">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum ...
+                            </div>
+                        </div>
+                        <div class="content-right-top-left"><img src="static/image/op3.jpeg" width="100" /></div>
+                        <div class="content-right-top-right">
+                          <div class="content-date">05-03-2018</div>
+                            <div class="content-right-p">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum ...
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        </div>
+    
+    </div>
+  
+  
+  <!--dmm-->
+  
+  
+    </div>
+  </div>
+{%endblock%}
+
+
+
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+</body>
+</html> {% endcomment %}
